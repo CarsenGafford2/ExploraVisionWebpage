@@ -23,7 +23,11 @@ body {
 h1 {
   text-align: center;
 }
-
+a {
+    margin: auto;
+    color: whitesmoke;
+    text-decoration: none;
+}
 ul {
   --col-gap: 2rem;
   --row-gap: 2rem;

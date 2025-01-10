@@ -1,0 +1,32 @@
+body {
+    background-color: #121212;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+img {
+    float: right;
+    width: 80%;
+    height: auto;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.emp {
+    position: absolute;
+    top: 100px;
+    left: 16px;
+}
+.unl {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+}
+mark.blue {
+    /* color: #0000FF; */
+    color: whitesmoke;
+    background: none;
+    text-decoration: underline;
+    text-decoration-color: #0000FF;
+}

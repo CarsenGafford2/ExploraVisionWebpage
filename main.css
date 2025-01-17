@@ -48,10 +48,10 @@ mark.blue {
 
 
 canvas {
+    position: absolute;
     float: right;
-    width: 80%;
-    height: auto;
-    margin-top: 50px;
+    top: 110px;
+    right: 0px;
 }
 
 /*header CSS */

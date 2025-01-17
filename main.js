@@ -89,7 +89,7 @@ label.style.padding = '10px 20px';
 label.style.display = 'none';
 document.body.appendChild(label);
 const txt = document.createElement('div');
-txt.textContent = "- Chemical Sensor";
+txt.textContent = " - Chemical Sensor";
 txt.style.position = 'fixed';
 txt.style.top = '25%';
 txt.style.left = '80%';
@@ -101,13 +101,15 @@ txt.style.padding = '10px 20px';
 txt.style.display = 'none';
 document.body.appendChild(txt);
 const txt2 = document.createElement('div');
-txt2.textContent = "- Chemical Sensor";
+txt2.textContent = "Neurobalance consists of two parts. The first one being strips on the brain that serve to monitor the brain's chemical levels. These strips are placed in various locations around the limbic system of the brain to ensure maximum irregularity detection. The second part which takes the data from the strips and determines if there is an irregularity in the chemical levels in the brain. If one is detected, it will determine the correct chemical release and will then interact with the brain's electrical signals to trigger the release of the proper chemicals. This piece is located in the hypothalamus ";
 txt2.style.position = 'fixed';
-txt2.style.top = '25%';
-txt2.style.left = '80%';
+txt2.style.top = '45%';
+txt2.style.left = '56%';
 txt2.style.zIndex = '999999999999';
 txt2.style.color = 'white';
-txt2.style.fontSize = '24px';
+txt2.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+txt2.style.borderRadius = '10px';
+txt2.style.fontSize = '16px';
 txt2.style.fontWeight = 'bold';
 txt2.style.padding = '10px 20px';
 txt2.style.display = 'none';
@@ -139,9 +141,11 @@ function animate() {
         if (scrollPercent >= 0.66) {
             label.style.display = 'block';
             txt.style.display = 'block';
+            txt2.style.display = 'block';
         } else {
             label.style.display = 'none';
             txt.style.display = 'none';
+            txt2.style.display = 'none';
         }
         
         model.rotation.y = THREE.MathUtils.lerp(model.rotation.y, targetRotationY, 0.1);

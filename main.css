@@ -6,8 +6,8 @@ body {
 
 img {
     float: right;
-    width: 80%;
-    height: auto;
+    height: 87vh;
+    width: auto;
 }
 .container {
     position: relative;
@@ -113,7 +113,7 @@ header h1{
     padding: 5px 0;
 }
 
-ul {
+header ul {
   --col-gap: 2rem;
   --row-gap: 2rem;
   --line-w: 0.25rem;
@@ -126,3 +126,35 @@ ul {
   margin-inline: auto;
   
 }
+ul {
+  padding: 0;
+  margin-right: 950px;
+  margin-left: 50px;
+}
+.list {
+    font-size: 14px;
+    margin-left: 1%;
+    padding-top: 20px;
+    list-style-type: disc;
+    width: 500px;
+ }
+ .Negative {
+    position: absolute;
+    left: 50%;
+    width: 1000px;
+    top: 25%;
+ }
+ .Positive {
+    position: absolute;
+    left: 10%;
+    width: 1000px;
+    top: 25%;
+ }
+ .verticalLine {
+    position: absolute;
+    border-left: thick solid #18329a;
+    height: 40%;
+    width: 50px;
+    left: 49%;
+    top: 32%;
+  }

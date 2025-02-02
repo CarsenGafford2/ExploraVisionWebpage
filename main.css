@@ -65,6 +65,7 @@ header{
 	padding-top: 10px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
+    z-index: 999999999999;
 }
 
 header h1{
